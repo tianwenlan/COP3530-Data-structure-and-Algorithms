@@ -6,6 +6,14 @@ Algorithm development using pseudo languages, basic program structures, program 
 
 HomeWork
 -----------------------
+1. Design an array-based, circular-buffer-based Queue, represented by a single array and two ints (that represent the head & tail indices)
+2. Street parade Problem (http://www.spoj.com/problems/STPAR/)
+3. Inorder & postorder traverse binary tree iteratively
+4. Design an algorithm for generating a packed array representation of a tournament tree
+5. Implement a winner tree and loser tree
+6. 0-1 knapsack: Implement (and thoroughly test) a function which takes Three equal size arrays
+7. Dynamic Programming: Blueberry(http://www.spoj.com/problems/RPLB/), Wedding Shopping(UVa 11450), ColorTree(UVa 1205)
+8. Implement the search/remove function in hash table with open addressing
 
 Project
 -----------------------
