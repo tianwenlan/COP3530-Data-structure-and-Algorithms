@@ -1,0 +1,52 @@
+========== Data: aeneid_vergil-unique.txt =========
+--- Capacity = 5245 ---
+User time: 36.1793 seconds
+System time: 0.565653 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 229 ---
+User time: 73.2715 seconds
+System time: 1.19086 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 751 ---
+User time: 110.26 seconds
+System time: 1.75214 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 5261 ---
+User time: 147.532 seconds
+System time: 2.37811 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 256 ---
+User time: 184.702 seconds
+System time: 3.00574 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 1024 ---
+User time: 222.091 seconds
+System time: 3.65088 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 8192 ---
+User time: 259.714 seconds
+System time: 4.29405 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 251 ---
+User time: 297.179 seconds
+System time: 4.94726 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 1021 ---
+User time: 334.346 seconds
+System time: 5.59957 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 8191 ---
+User time: 371.442 seconds
+System time: 6.23655 seconds
+Mean user time: 0 seconds
+Mean system time: 0 seconds
+--- Capacity = 193 ---

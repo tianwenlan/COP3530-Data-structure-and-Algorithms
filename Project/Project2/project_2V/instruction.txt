@@ -1,0 +1,62 @@
+Instruction
+
+#Part 1
+
+folder: 1.hash_function
+
+Q1:
+#command to test the mean system time and user time of four hash functions
+g++ hash_fuction.cpp
+g++ hash_string_1.cpp
+g++ hash_string_2.cpp
+g++ hash_string_3.cpp
+
+#The results were output to excel and reformatted for GNUPLOT
+
+#make histogram
+gnuplot histogram_stime.plt
+gnuplot histogram_utime.plt
+
+#make bar-and-whisker graph
+gnuplot box_stime.plt
+gnuplot box_utime.plt
+
+Q2:
+#command to test the mean system time and user time of four hash functions
+g++ hash_string_0.cpp
+g++ hash_string_1.cpp
+g++ hash_string_2.cpp
+g++ hash_string_3.cpp
+
+#make histogram
+#for each hash function
+gnuplot histogram_Chi_0.plt
+gnuplot histogram_Chi_1.plt
+gnuplot histogram_Chi_2.plt
+gnuplot histogram_Chi_3.plt
+
+#for each data
+gnuplot histogram_Chi_avu.plt
+gnuplot histogram_Chi_cau.plt
+gnuplot histogram_Chi_coords.plt
+gnuplot histogram_Chi_dcdu.plt
+gnuplot histogram_Chi_location.plt
+gnuplot histogram_Chi_odu.plt
+gnuplot histogram_Chi_original.plt
+gnuplot histogram_Chi_population.plt
+gnuplot histogram_Chi_uid.plt
+gnuplot histogram_Chi_wtu.plt
+
+Q4:
+#command to test the mean system time and user time of four hash functions
+g++ hash_string_0.cpp
+g++ hash_string_1.cpp
+g++ hash_string_2.cpp
+g++ hash_string_3.cpp
+
+#make histogram
+gnuplot histogram.plt
+
+folder: 2.open_addressing_capacity
+#linear probing
+g++ linear.cpp

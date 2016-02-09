@@ -1,0 +1,12 @@
+When it's empty: 
+Current list is empty
+current size: 0
+12 15 15 
+Size: 2
+found: 1
+not found: -3
+12 15 15 
+Capacity: 50
+Size: 2
+Load: 0.04
+Size: 0

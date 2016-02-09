@@ -1,0 +1,209 @@
+<List variety: Simple Singly-Linked List (SSLL)> written by <Tian>, <Wenlan>
+COP 3530, 2014F <1087>
+======================================================================
+Part I:
+======================================================================
+My LIST implementation uses the data structure described in the part I
+instructions and conforms to the technique required for this list
+variety: <yes>
+
+My LIST implementation 100% correctly supports the following methods
+as described in part I:
+
+* replace: <yes>
+* insert: <yes>
+* push_back: <yes>
+* push_front: <yes>
+* remove: <yes>
+* pop_back: <yes>
+* pop_front: <yes>
+* item_at: <yes>
+* is_empty: <yes>
+* clear: <yes>
+* contains: <yes>
+* print: <yes>
+
+======================================================================
+Part II:
+======================================================================
+My LIST implementation 100% correctly supports the following methods
+as described in part II:
+
+* size: <yes>
+* begin (returning an iterator): <yes>
+* end (returning an iterator): <yes>
+* begin (returning a const iterator): <yes>
+* end (returning an const iterator): <yes>
+
+My LIST implementation 100% correctly supports the following data
+members as described in part II:
+
+* size_t: <yes>
+* value_type: <yes>
+* iterator: <yes>
+* const_iterator: <yes>
+
+My ITERATOR implementation 100% correctly supports the following
+methods as described in part II:
+
+* constructor: <yes>
+* explicit constructor: <yes>
+* operator*: <yes>
+* operator->: <yes>
+* operator=: <yes>
+* operator++ (pre): <yes>
+* operator++ (post): <yes>
+* operator==: <yes>
+* operator!=: <yes>
+
+My ITERATOR implementation 100% correctly supports the following
+data members as described in part II:
+
+* value_type: <yes>
+* difference_type: <yes>
+* reference: <yes>
+* pointer: <yes>
+* iterator_category: <yes>
+* self_type: <yes>
+* self_reference: <yes>
+
+My CONST ITERATOR implementation 100% correctly supports the following
+methods as described in part II:
+
+* constructor: <yes>
+* explicit constructor: <yes>
+* operator*: <yes>
+* operator->: <yes>
+* operator=: <yes>
+* operator++ (pre): <yes>
+* operator++ (post): <yes>
+* operator==: <yes>
+* operator!=: <yes>
+
+My CONST ITERATOR implementation 100% correctly supports the following
+data members as described in part II:
+
+* value_type: <yes>
+* difference_type: <yes>
+* reference: <yes>
+* pointer: <yes>
+* iterator_category: <yes>
+* self_type: <yes>
+* self_reference: <yes>
+
+======================================================================
+Part III:
+======================================================================
+My LIST implementation 100% correctly supports the following
+methods as described in part III:
+
+* operator[]: <yes>
+* operator[] const: <no>
+
+For my LIST's methods 
+
+- I wrote documentation identifying the complete behavior (both normal
+  and exceptional) of the method, *AND*
+
+- when something unexpected occurs, the method throws appropriately
+  typed exceptions, *AND*
+
+- my implementation behaves 100% precisely as documented, *AND*
+
+- I have proven this by creating a suite of CATCH unit tests for
+  the method to verify that the method behaves as documented, *AND*
+
+- the method passes all of those unit tests.
+
+* replace: <yes>
+* insert: <yes>
+* push_back: <yes>
+* push_front: <yes>
+* remove: <yes>
+* pop_back: <yes>
+* pop_front: <yes>
+* item_at: <yes>
+* is_empty: <yes>
+* clear: <yes>
+* contains: <yes>
+* print: <yes>
+* size: <yes>
+* begin (returning an iterator): <yes>
+* end (returning an iterator): <yes>
+* begin (returning a const iterator): <yes>
+* end (returning an const iterator): <yes>
+* operator[]: <yes>
+* operator[] const: <no>
+
+For my ITERATOR's methods 
+
+- I wrote documentation identifying the complete behavior (both normal
+  and exceptional) of the method, *AND*
+
+- when something unexpected occurs, the method throws appropriately
+  typed exceptions, *AND*
+
+- my implementation behaves 100% precisely as documented, *AND*
+
+- I have proven this by creating a suite of CATCH unit tests for
+  the method to verify that the method behaves as documented, *AND*
+
+- the method passes all of those unit tests.
+
+* constructor: <yes>
+* explicit constructor: <yes>
+* operator*: <yes>
+* operator->: <yes>
+* operator=: <yes>
+* operator++ (pre): <yes>
+* operator++ (post): <yes>
+* operator==: <yes>
+* operator!=: <yes>
+
+For my CONST ITERATOR's methods 
+
+- I wrote documentation identifying the complete behavior (both normal
+  and exceptional) of the method, *AND*
+
+- when something unexpected occurs, the method throws appropriately
+  typed exceptions, *AND*
+
+- my implementation behaves 100% precisely as documented, *AND*
+
+- I have proven this by creating a suite of CATCH unit tests for
+  the method to verify that the method behaves as documented, *AND*
+
+- the method passes all of those unit tests.
+
+* constructor: <yes>
+* explicit constructor: <yes>
+* operator*: <yes>
+* operator->: <yes>
+* operator=: <yes>
+* operator++ (pre): <yes>
+* operator++ (post): <yes>
+* operator==: <yes>
+* operator!=: <yes>
+
+My LIST implementation compiles correctly using g++ v4.8.2 on the
+OpenBSD VM: <yes>
+
+My UNIT TESTS compiles correctly using g++ v4.8.2 on the 
+OpenBSD VM: <yes>
+
+My UNIT TESTS run correctly on the OpenBSD VM: <yes>
+
+I affirm that all the responses I have provided above are 100% true.
+Should it be determined that any are not 100% true, I agree to take a 0
+(zero) on the assignment: <yes>
+
+I affirm that I am the sole author of this <List variety: Simple Singly-Linked List (SSLL)>
+and the associated unit tests.  
+<Wenlan> <Tian>, <11-24-2014> in COP3520 section <1087>
+
+======================================================================
+<Exception tests are commented because they will terminate the program!>
+======================================================================
+
+How to compile and run my unit tests on the OpenBSD VM
+<g++ SSLL_catch.cpp>

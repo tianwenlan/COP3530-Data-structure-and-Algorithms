@@ -1,0 +1,70 @@
+<MAP variety: Hashmaps with Open Addressing> written by <Tian>, <Wenlan>
+COP 3530, 2014F <1087>
+
+======================================================================
+Part III: hashmaps with Open Addressing
+======================================================================
+My MAP implementation uses the data structure described in the part II
+instructions and conforms to the technique required for this map
+variety: <yes>
+
+My MAP implementation 100% correctly supports all three probing 
+techniques: <no>
+
+My MAP implementation 100% correctly supports the following key types:
+* signed int: <yes>
+* double: <yes>
+* c-string: <no>
+* std::string: <no>
+
+My MAP implementation 100% correctly supports the ANY value type: <no>
+
+My MAP implementation 100% correctly supports the following methods
+as described in part I:
+
+* search: <yes>
+* clear: <yes>
+* is_empty: <yes>
+* capacity: <yes>
+* size: <yes>
+* load: <yes>
+* print: <yes>
+
+My MAP implementation 100% correctly supports the following revised 
+and new methods as described in part III:
+
+* insert: <yes>
+* remove: <yes>
+* search: <yes>
+* cluster_distribution(): <yes>
+* remove_random(): <yes>
+
+======================================================================
+FOR ALL PARTS
+======================================================================
+
+My MAP implementation compiles correctly using g++ v4.8.2 on the
+OpenBSD VM: <yes>
+
+My TEST compiles correctly using g++ v4.8.2 on the OpenBSD VM: <no>
+
+My TESTS run correctly on the OpenBSD VM: <no>
+
+I affirm that all the responsess I have provided above are 100% true.
+Should it be determined that any are not 100% true, I agree to take a 0
+(zero) on the assignment: <yes>
+
+I affirm that I am the sole author of this <MAP variety: Hashmaps with Open Addressing>
+and the associated tests.  
+<Wenlan> <Tian>, <12-02-2014> in COP3520 section <1087>
+
+----------------------------------------------------------------------
+<HMOA_linear.cpp “core dumped” after all the tests>
+<HMOA_quadratic.cpp has some bugs>
+<search(),remove() do not support primitive value>
+----------------------------------------------------------------------
+
+How to compile and run my unit tests on the OpenBSD VM
+<g++ HMOA_linear.cpp>
+<g++ HMOA_quadratic.cpp>
+<g++ HMOA_rehashing.cpp>

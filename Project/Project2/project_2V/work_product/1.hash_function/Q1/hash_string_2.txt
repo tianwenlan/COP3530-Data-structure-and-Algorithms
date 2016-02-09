@@ -1,0 +1,50 @@
+========== Data: aeneid_vergil-unique.txt =========
+User time: 130.914 seconds
+System time: 2.97656 seconds
+Mean user time: 2.49598e-07 seconds
+Mean system time: 5.67505e-09 seconds
+========== Data: confucian-analects-unique.txt =========
+User time: 168.188 seconds
+System time: 4.47656 seconds
+Mean user time: 9.40646e-07 seconds
+Mean system time: 2.50367e-08 seconds
+========== Data: divine-comedy_dante-unique.txt =========
+User time: 233.492 seconds
+System time: 6.33594 seconds
+Mean user time: 7.92305e-07 seconds
+Mean system time: 2.14996e-08 seconds
+========== Data: origin-of-the-species_darwin-unique.txt =========
+User time: 284.273 seconds
+System time: 8.23438 seconds
+Mean user time: 1.21797e-06 seconds
+Mean system time: 3.52801e-08 seconds
+========== Data: war-and-peace_tolstoi-unique.txt =========
+User time: 342.023 seconds
+System time: 10.0312 seconds
+Mean user time: 1.60198e-06 seconds
+Mean system time: 4.69848e-08 seconds
+========== Data: localities-uid.txt =========
+User time: 596.461 seconds
+System time: 17.875 seconds
+Mean user time: 5.3682e-07 seconds
+Mean system time: 1.60877e-08 seconds
+========== Data: localities-population.txt =========
+User time: 884.016 seconds
+System time: 24.5234 seconds
+Mean user time: 7.95622e-07 seconds
+Mean system time: 2.20713e-08 seconds
+========== Data: localities-location.txt =========
+User time: 1119.62 seconds
+System time: 32.2578 seconds
+Mean user time: 1.00767e-06 seconds
+Mean system time: 2.90323e-08 seconds
+========== Data: localities-coords.txt =========
+User time: 1414.88 seconds
+System time: 41.5391 seconds
+Mean user time: 1.27341e-06 seconds
+Mean system time: 3.73855e-08 seconds
+========== Data: localities-original.txt =========
+User time: 1821.59 seconds
+System time: 77.9766 seconds
+Mean user time: 1.63945e-06 seconds
+Mean system time: 7.01796e-08 seconds

@@ -1,0 +1,63 @@
+<MAP variety: AVL Tree> written by <Tian>, <Wenlan>
+COP 3530, 2014F <1087>
+
+======================================================================
+Part IV BONUS: AVL Tree
+======================================================================
+My MAP implementation uses the data structure described in the part IV
+instructions and conforms to the technique required for this map
+variety: <yes/no>
+
+My MAP implementation 100% correctly implements AVL tree behavior: <yes/no>
+
+My MAP implementation 100% correctly supports the following key types:
+* signed int: <yes/no>
+* double: <yes/no>
+* c-string: <yes/no>
+* std::string: <yes/no>
+
+My MAP implementation 100% correctly supports the ANY value type: <yes/no>
+
+My MAP implementation 100% correctly supports the following methods
+as described in part IV:
+
+* insert: <yes/no>
+* remove: <yes/no>
+* search: <yes/no>
+* search: <yes/no>
+* clear: <yes/no>
+* is_empty: <yes/no>
+* capacity: <yes/no>
+* size: <yes/no>
+* load: <yes/no>
+* print: <yes/no>
+* cluster_distribution(): <yes/no>
+* remove_random(): <yes/no>
+
+My MAP implementation 100% correctly implements the bonus print(): <yes/no>
+
+======================================================================
+FOR ALL PARTS
+======================================================================
+
+My MAP implementation compiles correctly using g++ v4.8.2 on the
+OpenBSD VM: <yes>
+
+My TEST compiles correctly using g++ v4.8.2 on the OpenBSD VM: <yes>
+
+My TESTS run correctly on the OpenBSD VM: <yes>
+
+I affirm that all the responsess I have provided above are 100% true.
+Should it be determined that any are not 100% true, I agree to take a 0
+(zero) on the assignment: <yes>
+
+I affirm that I am the sole author of this <MAP variety: AVL Tree>
+and the associated tests.  
+<Wenlan> <Tian>, <12-02-2014> in COP3520 section <1087>
+
+----------------------------------------------------------------------
+<any comments you want the grader to read>
+----------------------------------------------------------------------
+
+How to compile and run my unit tests on the OpenBSD VM
+<g++ >

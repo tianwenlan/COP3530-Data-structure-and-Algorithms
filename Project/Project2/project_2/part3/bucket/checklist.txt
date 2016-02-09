@@ -1,0 +1,66 @@
+<MAP variety: Hashmaps with Buckets> written by <Tian>, <Wenlan>
+COP 3530, 2014F <1087>
+
+======================================================================
+Part III: Hashmaps with Buckets
+======================================================================
+My MAP implementation uses the data structure described in the part II
+instructions and conforms to the technique required for this map
+variety: <no>
+
+My MAP implementation 100% correctly supports all three probing 
+techniques: <no>
+
+My MAP implementation 100% correctly supports the following key types:
+* signed int: <yes>
+* double: <yes>
+* c-string: <no>
+* std::string: <no>
+
+My MAP implementation 100% correctly supports the ANY value type: <no>
+
+My MAP implementation 100% correctly supports the following methods
+as described in part I:
+
+* search: <no>
+* clear: <no>
+* is_empty: <yes>
+* capacity: <yes>
+* size: <yes>
+* load: <yes>
+* print: <yes>
+
+My MAP implementation 100% correctly supports the following revised 
+and new methods as described in part III:
+
+* insert: <no>
+* remove: <no>
+* search: <no>
+* cluster_distribution(): <no>
+* remove_random(): <no>
+
+======================================================================
+FOR ALL PARTS
+======================================================================
+
+My MAP implementation compiles correctly using g++ v4.8.2 on the
+OpenBSD VM: <no>
+
+My TEST compiles correctly using g++ v4.8.2 on the OpenBSD VM: <no>
+
+My TESTS run correctly on the OpenBSD VM: <no>
+
+I affirm that all the responsess I have provided above are 100% true.
+Should it be determined that any are not 100% true, I agree to take a 0
+(zero) on the assignment: <yes>
+
+I affirm that I am the sole author of this <MAP variety: Hashmaps with Buckets>
+and the associated tests.  
+<Wenlan> <Tian>, <12-02-2014> in COP3520 section <1087>
+
+----------------------------------------------------------------------
+<Actually i don’t understand why hash map with buckets needs probing>
+----------------------------------------------------------------------
+
+How to compile and run my unit tests on the OpenBSD VM
+<g++ HMB_linear.cpp>
