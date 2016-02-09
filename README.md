@@ -92,3 +92,8 @@ All programming assignments are to be tested using the g++ (GNU C++) compiler v4
       * Key remove_random()
 
   - Part IV: Compare the performance of different hash functions, capacity effects, collision avoidance methods, open addressing vs randomized binary search tree. These performance were tested with real statistics data, GNUPLOT was used to generate graphs.
+  - 
+  ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922620/14dc7856-cf07-11e5-9850-edae075680dd.png)
+  ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922744/8ce43ee2-cf07-11e5-9c3f-1184e1b8b894.png)
+  ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922763/a3817c00-cf07-11e5-94bb-13565dc2c05c.png)
+  ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922781/b8a3fb76-cf07-11e5-96de-a1c278a488bb.png)
