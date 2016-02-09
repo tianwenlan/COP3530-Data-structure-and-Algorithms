@@ -1,0 +1,32 @@
+bool winner(){
+	if(n<2) return true;
+
+	//check for completeness
+	//if unused slot left of a used slot, the tree is not complete
+
+	for (int i=1; i!=n; ++i){
+		if((tree[i-1]==unused) && (tree[i]!=unused))
+			return false;
+	}
+
+//check parents for same value as one of its children
+for(int i =0; i!=n; ++i){
+	int left = 2*i;
+	int right = left+1;
+	if(left<n){   //there is a slot for a left child
+		if(right < n){ //there is a slot for a right child
+			if( //parent matches a child
+					((tree[i]==tree[left]) || (tree[i]==tree[right]))
+					&& //the children are different  (or both unused slots)
+					(tree[left] == unused || (tree[left]!=tree[right])))
+				continue;
+			return false;
+		}else{
+			if(tree[i]==tree[left]) //parent matches only child
+				break;  //we just checked the last child
+			return false;
+		}
+	}
+	return true;
+}
+
