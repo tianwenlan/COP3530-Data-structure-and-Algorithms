@@ -13,12 +13,12 @@ All programming assignments are to be tested using the g++ (GNU C++) compiler v4
 
 + Project 1:
   - Part I: Lists - Design, implement, and thoroughly test all four varieties of list classes:
-    *The List varieties
+    * The List varieties
       * Simple Singly-Linked List (SSLL)
       * Pool-using Singly-Linked List (PSLL)
       * Simple Dynamic Array-based List (SDAL)
       * Chained Dynamic Array-based List (CDAL)
-    *List operations
+    * List operations
       * replace( element, position )
       * insert( element, position )
       * push_back( element )
@@ -32,4 +32,4 @@ All programming assignments are to be tested using the g++ (GNU C++) compiler v4
       * clear()
       * contains( element, equals_function )
       * print( ostream )
-  - Part II: Lists - Design, implement, and thoroughly test all four varieties of list classes:
+  - Part II: Lists - Summary
