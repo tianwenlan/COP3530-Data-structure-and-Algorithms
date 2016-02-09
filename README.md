@@ -92,8 +92,15 @@ All programming assignments are to be tested using the g++ (GNU C++) compiler v4
       * Key remove_random()
 
   - Part IV: Compare the performance of different hash functions, capacity effects, collision avoidance methods, open addressing vs randomized binary search tree. These performance were tested with real statistics data, GNUPLOT was used to generate graphs.
-  - 
-  ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922620/14dc7856-cf07-11e5-9850-edae075680dd.png)
-  ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922744/8ce43ee2-cf07-11e5-9c3f-1184e1b8b894.png)
-  ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922763/a3817c00-cf07-11e5-94bb-13565dc2c05c.png)
-  ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922781/b8a3fb76-cf07-11e5-96de-a1c278a488bb.png)
+
+    * Test1: For each dataset, both the mean system time and user time to hash a key in every dataset were tested when using four functions.
+      ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922620/14dc7856-cf07-11e5-9850-edae075680dd.png)
+  
+    * Test2: The performance of each hash functions was tested across all the data sets. The shortest time, 1st quarter time, mean time, 3rd quarter time, and the longest time were used calculated, and a box-and-whisker wth median bar and whiskerbars graph were draw using the GNUPLO.
+      ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922744/8ce43ee2-cf07-11e5-9c3f-1184e1b8b894.png)
+  
+    * Test3: Capacity table
+      ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922763/a3817c00-cf07-11e5-94bb-13565dc2c05c.png)
+  
+    * Test4: For each hash function, the Chi-square test was performed across all the ten data sets and 13 table capacities.
+      ![alt tag](https://cloud.githubusercontent.com/assets/9359558/12922781/b8a3fb76-cf07-11e5-96de-a1c278a488bb.png)
